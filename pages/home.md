@@ -1,17 +1,14 @@
 ---
 layout: home
-title: Your research project
-description: Uses an easy to customize theme for its website
+title: EU-EFRE collaborative research project ENABLING
+description: Resilient human-robot collaboration in a mixed-skill environments
 background: /assets/theme/images/chuttersnap-146799-unsplash.jpg
 permalink: /
 ---
 
-[Petridish](https://github.com/peterdesmet/petridish) is a Jekyll theme for research project websites. Or your personal blog or lab website. 👩‍🔬 It's mobile-friendly (thanks to [Bootstrap 5](https://getbootstrap.com/docs/5.3/)), free, easy to customize, and designed to work well with [GitHub Pages](https://pages.github.com/).
+# ENABLING
 
-## Installation
+**ENABLING (*Resilient human-robot collaboration in a mixed-skill environments*)** addresses the problem area of developing AI methods to complement the skills of robots and humans. It thus enables research innovations in cross-sectional areas of IT and key enabling technologies and forms the basis for future applications in the lead markets. The challenges lie, firstly, at the interface between robotics and AI and, secondly, in the complexity of tasks in a mixed-skill environment and, thirdly, in resilient and responsible collaboration. These are to be achieved by developing the key technologies for 1. robust recording of the affective user state, 2. semantic environment analysis, 3. intention-based interpretation of user actions, 4. and research into generative models for recording complex behavior in mixed-skill environments.
 
-See the demo website for instructions:
 
-- [Installation]({{ '/docs/installation/' | relative_url }})
-- [Configuration]({{ '/docs/configuration/' | relative_url }})
-- [Markdown]({{ '/docs/markdown/' | relative_url }})
+The project is funded by the European Regional Development Fund (ERDF) under grant No. ZS/2023/12/182056 and is planned with a project duration of 4 years (2024 bis 2027).
