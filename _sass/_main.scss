@@ -4,7 +4,3 @@ body > main {
   min-height: calc(100vh - 54px); // Viewport height minus medium screen navbar height, to push footer to bottom
   padding-bottom: $grid-gutter-width; // Don't stick to footer
 }
-
-.container {
-  max-width: 1200px; // Adjust this value to your desired width
-}
