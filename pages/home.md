@@ -1,7 +1,7 @@
 ---
 layout: home
-title: EU-EFRE collaborative research project ENABLING
-description: Resilient human-robot collaboration in a mixed-skill environments
+title: EU EFRE collaborative research project ENABLING
+description: Resilient human-robot collaboration in a mixed skill environments
 background: /assets/theme/images/chuttersnap-146799-unsplash.jpg
 permalink: /
 ---
