@@ -1,6 +1,6 @@
 ---
-title: AutoKoWaT
-description: Innovative Photonics for Autonomous Collaborative Systems in Dynamic Good Transportation Processes
+title: ENABLING
+description: "Resilient Human-Robot Collaboration in Mixed-Skill Environments"
 background: /assets/theme/images/store-5619201_1920.jpg
 permalink: /project/
 ---
