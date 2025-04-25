@@ -5,17 +5,15 @@
 columns:
   - description:
     links:
-    - text: Name of project partner 1
-      href: http://example.com
+    - text: apl. Prof. Dr.-Ing. habil. Ayoub Al-Hamadi
+      href: https://www.ovgu.de/Al_Hamadi.html
       new_window: true
-    - text: Prestigious and long name of project partner 2
-      href: http://example.com
+    - text: Prof. Dr. rer. nat. Andreas Wendemuth
+      href: https://www.ovgu.de/Wendemuth.html
       new_window: true
 
   - description: > # E.g. funding acknowledgement. Can be Markdown
-      This project is made with ❤ for open source.
-      See [`_data/footer.yml`](https://raw.githubusercontent.com/peterdesmet/petridish/master/_data/footer.yml)
-      to customize this text.
+      The project is funded by the European Regional Development Fund (ERDF) under grant No. ZS/2023/12/182056 and is planned with a project duration of 4 years (2024 bis 2027).
     links:
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown

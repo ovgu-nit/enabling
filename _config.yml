@@ -1,30 +1,30 @@
 # SITE SETTINGS
 title: ENABLING                       # Title in top navigation bar (navbar) and <head>
-author: NIT Ovgu                    # Used for copyright statement in footer
+author: NIT OVGU                    # Used for copyright statement in footer
 baseurl: /enabling                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
                                         # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
                                         # A baseurl affects internal links, see http://peterdesmet.com/petridish/markdown/#links
 
 # SOCIAL PROFILES
 social:
-  email: name@example.com
-  bluesky: bluesky_username.bsky.social
-  mastodon: https://mastodon.social/@mastodon_username
-  twitter: twitter_username
-  linkedin: https://linkedin.com/company/project_name/
-  facebook: https://facebook.com/groups/group_id/
-  github: github_username               # Can also be a github_username/repository
-  disqus: disqus_sitename               # Enable Disqus comments from disqus_sitename.disqus.com
+  #email: name@example.com
+  #bluesky: bluesky_username.bsky.social
+  #mastodon: https://mastodon.social/@mastodon_username
+  #twitter: twitter_username
+  #linkedin: https://linkedin.com/company/project_name/
+  #facebook: https://facebook.com/groups/group_id/
+  github: nit-ovgu               # Can also be a github_username/repository
+  #disqus: disqus_sitename               # Enable Disqus comments from disqus_sitename.disqus.com
 
 # THEME SETTINGS (ALL OPTIONAL)
-posts_on_home: 2                        # Show x number of latest posts on homepage, can be 0
+posts_on_home: 20                        # Show x number of latest posts on homepage, can be 0
 archive_permalink: /blog/               # Permalink of page using the archive.html layout, required when using post tags
 github_edit: true                       # Show an "edit this page" link in the footer, can also be name of branch (default: main)
 colors:
   links: "#007bff"                      # Color for links: use a readable color that contrasts well with dark text
   banner: "#007bff"                     # Background color for page banners: use color that contrasts well with white
   footer: "#6c757d"                     # Background color for footer: use color that contrasts well with white
-font_serif: true                        # Font type for page content: serif (default) or slightly smaller sans-serif
+font_serif: False                        # Font type for page content: serif (default) or slightly smaller sans-serif
 rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
 logo: /assets/theme/images/petri-dish_1f9eb.png # Logo in navbar, will be displayed with 30px height
 
