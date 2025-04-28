@@ -1,7 +1,6 @@
 ---
-title: Eye Contact Based Engagement Prediction for Efficient Human-Robot Interaction
-description: We introduces a new approach to predict human engagement in human-robot interactions (HRI), focusing on eye contact and distance information. 
-
+title: "Eye Contact Based Engagement Prediction for Efficient Human-Robot Interaction"
+description: We introduce a new approach to predict human engagement in human-robot interactions (HRI), focusing on eye contact and distance information. Recognising engagement, particularly its decline, is essential for successful and natural interactions. This requires early, real-time user behavior detection.
 background: /assets/theme/images/EyeContactBasedEngagementForHRI2025.png
 author: [jung, Magnus and Abdelrahman, Ahmed A and Hempel, Thorsten and Al-Tawil, Basheer and Yang, Qiaoyue and Wachsmuth, Sven and Al-Hamadi, Ayoub]
 categories: [Publication, Journal, Engagement]
