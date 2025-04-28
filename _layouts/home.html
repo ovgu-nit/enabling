@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 description: Template for homepage.
 remark: See also page.layout == 'home' in head.html and header.html.
 ---
@@ -7,7 +7,7 @@ remark: See also page.layout == 'home' in head.html and header.html.
 {{ content }}
     
 {% if site.posts_on_home > 0 %}
-  <div class="row cards mt-4">
+  <div class="row cards lg-4">
     {% for item in site.posts limit:site.posts_on_home %}
       <div class="col-md-4">
         {% include card.html %}
@@ -15,3 +15,4 @@ remark: See also page.layout == 'home' in head.html and header.html.
     {% endfor %}
   </div>
 {% endif %}
+
