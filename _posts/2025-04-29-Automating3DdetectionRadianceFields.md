@@ -1,0 +1,24 @@
+---
+title: "Automating 3D Dataset Generation with Neural Radiance Fields"
+description: 3D detection is a critical task to understand spatial characteristics of the environment and is used in a variety of applications including robotics, augmented reality, and image retrieval. Training performant detection models require diverse, precisely annotated, and large scale datasets that involve complex and expensive creation processes. Hence, there are only few public 3D datasets that are additionally limited in their range of classes. In this work, we propose a pipeline for automatic generation of 3D datasets for arbitrary objects. By utilizing the universal 3D representation and rendering capabilities of Radiance Fields, our pipeline generates high quality 3D models for arbitrary objects. These 3D models serve as input for a synthetic dataset generator. Our pipeline is fast, easy to use and has a high degree of automation. Our experiments demonstrate, that 3D pose estimation networks, trained with our generated datasets, archive strong performance in typical application scenarios. 
+
+background: /assets/theme/images/Teaser.png
+author: [Schulz, Paul and Hempel, Thorsten and Al-Hamadi, Ayoub]
+categories: [Publication, Conference, Engagement]
+---
+
+## Automating 3D Dataset Generation with Neural Radiance Fields
+
+3D detection is a critical task to understand spatial characteristics of the environment and is used in a variety of applications including robotics, augmented reality, and image retrieval. Training performant detection models require diverse, precisely annotated, and large scale datasets that involve complex and expensive creation processes. Hence, there are only few public 3D datasets that are additionally limited in their range of classes. In this work, we propose a pipeline for automatic generation of 3D datasets for arbitrary objects. By utilizing the universal 3D representation and rendering capabilities of Radiance Fields, our pipeline generates high quality 3D models for arbitrary objects. These 3D models serve as input for a synthetic dataset generator. Our pipeline is fast, easy to use and has a high degree of automation. Our experiments demonstrate, that 3D pose estimation networks, trained with our generated datasets, archive strong performance in typical application scenarios. 
+
+## Citing
+
+```bibtex
+@article{Schulz2025radiancefields,
+  title={Automating 3D Dataset Generation with Neural Radiance Fields},
+  author={Schulz, Paul and Hempel, Thorsten and Al-Hamadi, Ayoub},
+  booktitle={International Conference on Robotics, Computer Vision and Intelligent Systems},
+  year={2025},
+  organization={Springer}
+}
+```
