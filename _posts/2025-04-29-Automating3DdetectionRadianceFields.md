@@ -1,6 +1,6 @@
 ---
 title: "Automating 3D Dataset Generation with Neural Radiance Fields"
-description: We present a fully automated pipeline that leverages Radiance Field–based universal 3D representations to rapidly generate high-quality models of arbitrary objects and synthesize large, diverse 3D datasets—enabling state-of-the-art detection and pose-estimation performance despite the scarcity of public 3D data.s. 
+description: We present a fully automated pipeline that leverages Radiance Field–based universal 3D representations to rapidly generate high-quality models of arbitrary objects and synthesize large, diverse 3D datasets—enabling state-of-the-art detection and pose-estimation performance despite the scarcity of public 3D data. 
 
 background: /assets/theme/images/Teaser.png
 author: [Schulz, Paul and Hempel, Thorsten and Al-Hamadi, Ayoub]
