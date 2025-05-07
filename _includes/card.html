@@ -1,16 +1,31 @@
+<style>
+  .card-title a {
+    color: inherit; /* Inherit color from parent element */
+    text-decoration: none; /* Remove underline */
+  }
+
+  .card-title a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+  }
+</style>
+
 {% if item.background.first %}
   {% assign background = item.background.img %}
 {% else %}
   {% assign background = item.background %}
 {% endif %}
+<link rel="stylesheet" href="{{ '/assets/theme/css/style.css' | relative_url }}">
 
 <div class="card" data-tags="{% for tag in item.tags %}{{ tag | downcase | strip }}|{% endfor %}">
   <a href="{{ item.url | relative_url }}">
-    {% if item.background %}
-      <img class="card-img-top" src="{{ background | relative_url }}" alt="Background image">  
-    {% else %}
-      <div class="card-img-top bg-secondary"></div>
-    {% endif %}
+    <div class="card-img-container">
+      {% if item.background %}
+        <img class="card-img-top" src="{{ background | relative_url }}" alt="Background image">
+        <div class="card-img-overlay"></div>
+      {% else %}
+        <div class="card-img-top bg-secondary"></div>
+      {% endif %}
+    </div>
   </a>
 
   <div class="card-body position-relative">
@@ -38,4 +53,5 @@
       {% endfor %}
     </div>
   {% endif %}
+
 </div>

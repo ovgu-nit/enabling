@@ -3,8 +3,10 @@ title: Fine-grained gaze estimation based on the combination of regression and c
 description: We present our recent work on gaze estimation. Our approach is a novel two-branch CNN architecture with a multi-loss approach to estimate gaze angles (pitch and yaw) from face images, enabling explicit learning of discriminative features for each angle. Through experiments on three datasets, the proposed model outperforms state-of-the-art methods, demonstrating superior performance in gaze estimation under unconstrained conditions.
     
 background: /assets/theme/images/applint-2024.png
-author: []
+author: "Ahmed A. Abdelrahman, Thorsten Hempel, Aly Khalifa, Ayoub Al-Hamadi"
 categories: [Publication, Journal, Gaze estimation]
+tag: [Journal, Publication]
+conference: "**Springer Applied Intelligence 2024** [[paper]](https://link.springer.com/article/10.1007/s10489-024-05778-3)"
 ---
 
 ## Fine-grained gaze estimation based on the combination of regression and classification losses
@@ -15,7 +17,7 @@ ChatGPT said:
 
 
 ## Fulltext Access
-[https://link.springer.com/article/10.1007/s10489-024-05778-30](https://link.springer.com/article/10.1007/s10489-024-05778-3)
+[https://link.springer.com/article/10.1007/s10489-024-05778-3](https://link.springer.com/article/10.1007/s10489-024-05778-3)
 
 
 ## Citing

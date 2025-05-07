@@ -2,8 +2,10 @@
 title: "Eye Contact Based Engagement Prediction for Efficient Human-Robot Interaction"
 description: We introduce a new approach to predict human engagement in human-robot interactions (HRI), focusing on eye contact and distance information. Recognising engagement, particularly its decline, is essential for successful and natural interactions. This requires early, real-time user behavior detection.
 background: /assets/theme/images/EyeContactBasedEngagementForHRI2025.png
-author: [jung, Magnus and Abdelrahman, Ahmed A and Hempel, Thorsten and Al-Tawil, Basheer and Yang, Qiaoyue and Wachsmuth, Sven and Al-Hamadi, Ayoub]
+author: "Magnus Jung, Ahmed A. Abdelrahmanand, Thorsten Hempel, Basheer Al-Tawil, Qiaoyue Yang, Sven Wachsmuth, Ayoub Al-Hamadi"
 categories: [Publication, Journal, Engagement]
+conference: "**CIS 2025, *accepted***"
+tags: [Journal, Springer, Publication]
 ---
 
 ## Fine-grained gaze estimation based on the combination of regression and classification losses

@@ -3,8 +3,11 @@ title: "Automating 3D Dataset Generation with Neural Radiance Fields"
 description: We present a fully automated pipeline that leverages Radiance Field–based universal 3D representations to rapidly generate high-quality models of arbitrary objects and synthesize large, diverse 3D datasets—enabling state-of-the-art detection and pose-estimation performance despite the scarcity of public 3D data. 
 
 background: /assets/theme/images/Teaser.png
-author: [Schulz, Paul and Hempel, Thorsten and Al-Hamadi, Ayoub]
+author: "Paul Schulz, Thorsten Hempel, Ayoub Al-Hamadi"
 categories: [Publication, Conference, Engagement]
+github: https://github.com/PaulSK98/Nerf2Dataset
+conference: "**ROBOVIS 2025** [[paper]](https://arxiv.org/abs/2503.15997) [[code]]( https://github.com/PaulSK98/Nerf2Dataset)"
+tags: [ROBOVIS 2025, Conference]
 ---
 
 ## Automating 3D Dataset Generation with Neural Radiance Fields

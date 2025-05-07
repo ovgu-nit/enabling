@@ -1,48 +1,90 @@
 ---
-layout: base
-description: Template for a list of posts as cards, with full width.
+layout: base_small
+description: Template for publications page
 ---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class="row">
-  <div class="col">
+<style>
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-    {{ content }}
-  
-  </div>
-</div>
+.media img {
+  width: 120px; /* Adjust the width */
+  height: 70px; /* Adjust the height */
+  object-fit: cover; /* Ensures the image fits within the dimensions */
+  margin-right: 15px; /* Add spacing between the image and text */
+}
 
-<div class="row cards">
-  {% for item in site.posts %}
-    {% if item.categories contains 'Publication' %}
-     <div class="col-md-4">
-        {% include card.html %}
-      </div>
+.media {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.media-body {
+  flex: 1;
+}
+
+.year-section {
+  margin-top: 30px;
+}
+
+.year-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.year-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Remove blue color from title links */
+.media-body a {
+  color: inherit; /* Inherit color from parent element */
+  text-decoration: none; /* Remove underline */
+}
+
+.media-body a:hover {
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
+</style>
+
+{{ content }}
+
+{% assign current_year = "" %}
+{% for item in site.posts %}
+  {% if item.categories contains 'Publication' %}
+    {% assign year = item.date | date: "%Y" %}
+    {% if year != current_year %}
+      {% unless current_year == "" %}
+        </div> <!-- Close previous year section -->
+      {% endunless %}
+      <div class="year-section">
+        <div class="year-title">{{ year }}</div>
+        {% assign current_year = year %}
+    {% endif %}
+    <div class="media">
+      {% if item.background %}
+        <img class="mr-3" src="{{ item.background | relative_url }}" alt="Publication Image">
       {% endif %}
-  {% endfor %}
-</div>
+      <div class="media-body">
+        <p style="line-height:120%;margin-bottom:0.2em; font-weight: bold;">
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        </p>
+        {% if item.author %}
+        <small>
+          <p style="line-height:110%;margin-bottom:0.2em; color: grey;">
+                <font color="grey">{{ item.author }}</font>
+            </p>
+              {{ item.conference | markdownify }}
+          </small>
+        {% endif %}
 
-<script>
-  // Filter cards on ?tag=value
-  $(document).ready(function() {
-    const urlParams = new URLSearchParams(window.location.search);
-    
-    if (urlParams.has("tag") && urlParams.get("tag") != "") {
-      const tag = urlParams.get("tag"); // Will return 1st tag value + decode URI
-      const cleanTag = $.trim(tag.toLowerCase()); // Create tag as written in .card data-tags
-      
-      $(".card").each(function() {
-        const cardTags = $(this).data("tags").split("|");
-        // Hide card if it does not contain the selected tag
-        if (!cardTags.includes(cleanTag)) {
-          $(this).parent().addClass("d-none");
-        }
-      });
-
-      $(".header .tags").append(
-        '<a class="badge{% if site.rounded_corners != false %} rounded-pill{% endif %}" href="{{ site.archive_permalink | relative_url }}">' + 
-        tag + '<span class="btn-close btn-close-white"></span>' + 
-        '</a>'
-      );
-    }
-  });
-</script>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div> <!-- Close last year section -->

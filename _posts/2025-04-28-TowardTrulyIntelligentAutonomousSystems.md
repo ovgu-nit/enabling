@@ -2,8 +2,10 @@
 title: Toward Truly Intelligent Autonomous Systems A Taxonomy of LLM Integration for Everyday Automation
 description: With the rapid development of large language models (LLMs), their integration into autonomous systems has become essential. This integration significantly increases the flexibility and adaptability of the system. We propose a categorization of LLM integration into three levels, open-loop, closed-loop, and autonomous systems fully driven by robotic LLMs.
 background: /assets/theme/images/TowardTrulyIntelligentAutonomousSystems.png
-author: [Jung, Magnus and Hempel, Thorsten and Al-Tawil, Basheer and Yang, Qiaoyue and Wachsmuth, Sven and Al-Hamadi, Ayoub]
+author: "Magnus Jung, Thorsten Hempel, Basheer Al-Tawil, Qiaoyue Yang and Sven Wachsmuth, Ayoub Al-Hamadi"
 categories: [Publication, Conference, LLM Integration]
+conference: "**ROBOVIS 2025, *accepted***"
+tags: [ROBOVIS 2025, Conference]
 ---
 
 ## Toward Truly Intelligent Autonomous Systems: A Taxonomy of LLM Integration for Everyday Automation
