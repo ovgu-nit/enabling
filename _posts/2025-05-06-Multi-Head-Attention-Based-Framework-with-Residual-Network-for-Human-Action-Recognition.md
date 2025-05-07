@@ -5,7 +5,7 @@ background: /assets/theme/images/har_model.png
 author: "Basheer Al-Tawil, Magnus Jung, Thorsten Hempel, Ayoub Al-Hamadi"
 categories: [Publication, Journal, Human Action Recognition]
 tag: [Journal, HAR, Deep Learning]
-journal: "**MDPI Sensors 2025** [[paper]](https://doi.org/10.3390/s25092930)"
+journal: "**MDPI Sensors 2025, accepted***"
 ---
 
 ## Multi-Head Attention-Based Framework with Residual Network for Human Action Recognition
