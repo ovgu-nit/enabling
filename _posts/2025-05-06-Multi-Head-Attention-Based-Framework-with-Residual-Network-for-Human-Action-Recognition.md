@@ -23,14 +23,17 @@ We evaluate the framework on the UCF-101 dataset, achieving a 96.60% accuracy, d
 ## Citing
 
 ```bibtex
-@article{altawil2025multi,
-  title={Multi-Head Attention-Based Framework with Residual Network for Human Action Recognition},
-  author={Al-Tawil, Basheer and Jung, Magnus and Hempel, Thorsten and Al-Hamadi, Ayoub},
-  journal={Sensors},
-  volume={25},
-  number={9},
-  pages={1-18},
-  year={2025},
-  publisher={MDPI}
+@Article{s25092930,
+AUTHOR = {Al-Tawil, Basheer and Jung, Magnus and Hempel, Thorsten and Al-Hamadi, Ayoub},
+TITLE = {Multi-Head Attention-Based Framework with Residual Network for Human Action Recognition},
+JOURNAL = {Sensors},
+VOLUME = {25},
+YEAR = {2025},
+NUMBER = {9},
+ARTICLE-NUMBER = {2930},
+URL = {https://www.mdpi.com/1424-8220/25/9/2930},
+ISSN = {1424-8220},
+DOI = {10.3390/s25092930}
 }
+
 
