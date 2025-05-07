@@ -28,7 +28,7 @@ We evaluate the framework on the UCF-101 dataset, achieving a 96.60% accuracy, d
   journal={Sensors},
   volume={25},
   number={9},
-  pages={2930},
+  pages={1-18},
   year={2025},
   publisher={MDPI}
 }
