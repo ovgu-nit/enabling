@@ -1,7 +1,7 @@
 ---
 title: Multi-Head Attention-Based Framework with Residual Network for Human Action Recognition
 description: We propose a novel HAR framework integrating residual networks, Bi-LSTM, and multi-head attention with a motion-based frame selection strategy. It achieves 96.60% accuracy on UCF-101 and supports real-time performance, even on mobile robots.
-background: /assets/theme/images/model.png
+background: /assets/theme/images/har_model.png
 author: "Basheer Al-Tawil, Magnus Jung, Thorsten Hempel, Ayoub Al-Hamadi"
 categories: [Publication, Journal, Human Action Recognition]
 tag: [Journal, HAR, Deep Learning]
