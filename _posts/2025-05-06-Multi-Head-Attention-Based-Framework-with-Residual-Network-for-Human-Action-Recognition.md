@@ -4,6 +4,7 @@ description: We propose a novel HAR framework integrating residual networks, Bi-
 background: /assets/theme/images/har_model.png
 author: "Basheer Al-Tawil, Magnus Jung, Thorsten Hempel, Ayoub Al-Hamadi"
 categories: [Publication, Journal, Human Action Recognition]
+github: https://github.com/basheeraltawil/HAR-ResNet-BiLSTM-Attention
 tag: [Journal, HAR, Deep Learning]
 journal: "**MDPI Sensors 2025** [[paper]](https://doi.org/10.3390/s25092930)"
 ---
