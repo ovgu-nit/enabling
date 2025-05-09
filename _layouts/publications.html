@@ -67,8 +67,8 @@ img {
         {% assign current_year = year %}
     {% endif %}
     <div class="media">
-      {% if item.background %}
-        <img class="mr-3" src="{{ item.background | relative_url }}" alt="Publication Image">
+      {% if item.image %}
+        <img class="mr-3" src="{{ item.image | relative_url }}" alt="Publication Image">
       {% endif %}
       <div class="media-body">
         <p style="line-height:120%;margin-bottom:0.2em; font-weight: bold;">
