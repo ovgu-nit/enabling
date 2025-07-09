@@ -10,6 +10,9 @@
   href: /publications/
 - text: News
   href: /blog/
+- text: NIT Home
+  href: https://www.ovgu.de/nit/
+  new_window: true # Open in a new tab/window
 #- text: Documentation
 #  menu: # Dropdown menu (one level deep only)
 #  - text: Installation

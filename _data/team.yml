@@ -1,28 +1,75 @@
 # Project team members listed below will appear on the /team page
 
-#- name: Philip J. Fry
-#  role: Delivery boy # Will appear next to name
-#  image: assets/theme/images/fry_ethan-hoover-311143-unsplash.jpg # Can be external link
-#  description: > # Can be Markdown
-#    Protagonist, from the 20th century. Many times great-uncle to Professor Hubert Farnsworth.
-#  orcid: 0000-0000-0000-0000
-#  researchgate: researchgate_username
-#  googlescholar: googlescholar_username
+- name: Prof. Dr.-Ing. habil. Ayoub Al-Hamadi 
+  role: Head of NIT Department, Principal Investigator
+  image: assets/theme/images/team/al-hamadi.jpg # Can be external link
+  description: > # Can be Markdown
+     Head of the Neuro-Information Technology (NIT) research group at Otto von Guericke University Magdeburg. Expert in pattern recognition, image processing, and AI-based assistance systems with over 350 publications and extensive experience leading national and international research projects.
+  orcid: 0000-0002-3632-2402
+  researchgate: Ayoub-Al-Hamadi
+  googlescholar: 4IELWYQAAAAJ
 #  bluesky: bluesky_username.bsky.social
 #  mastodon: https://mastodon.social/@mastodon_username
 #  twitter: twitter_username
 #  linkedin: linkedin_username
 #  github: github_username
-#  email: name@example.com
+  email: ayoub.al-hamadi@ovgu.de
 
-#- name: Turanga Leela
-#  role: Captain
-#  description: >
-#    Mutant cyclops. Leela is spaceship captain, pilot, and head of all 
-#    aviation services on board the [Planet Express Ship](https://en.wikipedia.org/wiki/Planet_Express_Ship). 
+- name: Prof. Dr. rer. nat. Andreas Wendemuth
+  role: Principal Investigator
+  image: assets/theme/images/team/wendemuth.jpg # Can be external link
+  description: >
+    Andreas Wendemuth is a physicist and electrical engineer. He received the Doctor of Philosophy degree in physics (1994) from the University of Oxford, United Kingdom, for his works on “Optimisation in Neural Networks.” Since 2001, he is Professor for Cognitive Systems at the Otto-von- Guericke-University Magdeburg, Germany.
+  orcid: 0000-0001-6917-8198
+  researchgate: Andreas-Wendemuth
+  googlescholar: 2XjRofEAAAAJ
+#  bluesky: bluesky_username.bsky.social
+#  mastodon: https://mastodon.social/@mastodon_username
+#  twitter: twitter_username
+#  linkedin: linkedin_username
+#  github: github_username
+  email: andreas.wendemuth@ovgu.de
 
-#- name: Professor Hubert J. Farnsworth
-#  role: CEO & Owner
-#  image: assets/theme/images/farnsworth_angelo-abear-1662775-unsplash.jpg
-#  description: >
-#    Many times great-nephew of Fry. Tenured professor of [Mars University](https://en.wikipedia.org/wiki/Mars_University).
+- name: Dr.-Ing. Thorsten Hempel
+  role: Group Lead
+  image: assets/theme/images/team/hempel.jpeg # Can be external link
+  description: >
+    Thorsten Hempel is a Postdoc in the NIT group with a focus on machine learning and computer vision for cogntive robotics. He received his PhD in 2025 for his work on "Image-based situation analysis for intuitive human-robot interaction in dynamic environments". He has extensive experience in leading research projects and mentoring students.
+  orcid: 0000-0001-6917-8198
+  researchgate: Thorsten-Hempel
+  googlescholar: leE018kAAAAJ
+  email: thorsten.hempel@ovgu.de
+  github: thohemp
+
+- name: M.Sc. Paul Schulz
+  role: PhD Student
+  image: assets/theme/images/team/schulz.png # Can be external link
+  description: >
+    Paul Schulz is a PhD student in the NIT group, focusing on computer vision and 3D reconstruction. He is passionate about developing innovative solutions for learning based scene reconstruction and synthetic data generation.
+  #orcid: 0000-0001-6917-8198
+  #researchgate: Paul-Schulz
+  #googlescholar: leE018kAAAAJ
+  email: paul.schulz@ovgu.de
+  github: PaulSK98
+
+- name: M.Sc. Malte Herrmann
+  role: PhD Student
+  image: assets/theme/images/team/herrmann.jpeg # Can be external link
+  description: >
+    Malte Herrmann is a PhD student in the NIT group, specializing in cognitive robotics and AI. His current work focuses on robotics digital twins for reinforcement learning, leveraging game engines to enhance simulation and experimentation.
+  orcid: 0009-0006-0853-3348
+  #researchgate: Malte-Herrmann
+  #googlescholar: leE018kAAAAJ
+  email: malte.herrmann@ovgu.de
+  github: herrmanm
+
+- name: M.Sc. Behnam Ensan
+  role: PhD Student
+  image: assets/theme/images/team/ensan.jpg # Can be external link
+  description: >
+    Behnam Ensan is a PhD student and part of the Chair of Cognitive Systems. His work centers on advancing natural language understanding for cognitive systems, engaging in innovative research and collaboration with fellow experts.
+ # orcid: 0000-0002-3632-2402
+  #researchgate: Behnam-Ensan
+  #googlescholar: leE018kAAAAJ
+  email:  behnam.ensan@ovgu.de
+  github: bhname

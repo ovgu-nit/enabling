@@ -8,9 +8,6 @@ columns:
     - text: "apl. Prof. Dr.-Ing. habil. Ayoub Al-Hamadi"
       href: https://www.ovgu.de/Al_Hamadi.html
       new_window: true
-    - text: "Prof. Dr. rer. nat. Andreas Wendemuth"
-      href: https://www.ovgu.de/Wendemuth.html
-      new_window: true
 
   - description: > # E.g. funding acknowledgement. Can be Markdown
       The project is funded by the European Regional Development Fund (ERDF) under grant No. ZS/2023/12/182056 and is planned with a project duration of 4 years (2024 to 2027).
