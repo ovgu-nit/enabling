@@ -42,7 +42,7 @@
   github: thohemp
 
 - name: M.Sc. Paul Schulz
-  role: PhD Student
+  role: Researcher
   image: assets/theme/images/team/schulz.png # Can be external link
   description: >
     Paul Schulz is a PhD student in the NIT group, focusing on computer vision and 3D reconstruction. He is passionate about developing innovative solutions for learning based scene reconstruction and synthetic data generation.
@@ -53,7 +53,7 @@
   github: PaulSK98
 
 - name: M.Sc. Malte Herrmann
-  role: PhD Student
+  role: Researcher
   image: assets/theme/images/team/herrmann.jpeg # Can be external link
   description: >
     Malte Herrmann is a PhD student in the NIT group, specializing in cognitive robotics and AI. His current work focuses on robotics digital twins for reinforcement learning, leveraging game engines to enhance simulation and experimentation.
@@ -64,7 +64,7 @@
   github: herrmanm
 
 - name: M.Sc. Behnam Ensan
-  role: PhD Student
+  role: Researcher
   image: assets/theme/images/team/ensan.jpg # Can be external link
   description: >
     Behnam Ensan is a PhD student and part of the Chair of Cognitive Systems. His work centers on advancing natural language understanding for cognitive systems, engaging in innovative research and collaboration with fellow experts.
