@@ -3,6 +3,7 @@ title: "Automating Synthetic Dataset Generation for Image-based 3D Detection: A 
 description: |
   A comprehensive review of synthetic dataset generation approaches for 3D object detection, covering both traditional 3D modeling and neural image synthesis methods, along with techniques to address the Sim-to-Real domain gap.
 background: /assets/theme/images/synthetic_data.png
+image: /assets/theme/images/synthetic_data.png
 author: []
 categories: [Publication, Journal Paper, Artificial Intelligence Review, 3D Detection, Synthetic Data]
 ---
