@@ -1,8 +1,8 @@
 {% comment %}background is defined in head.html{% endcomment %}
 {% if background %}
-  <header class="header bg-image" style="background-image: url('{{ background | relative_url }}')">
+  <header class="header bg-image{% if page.layout == 'home' %} home{% endif %}" style="background-image: url('{{ background | relative_url }}')">
 {% else %}
-  <header class="header bg-no-image">
+  <header class="header bg-no-image{% if page.layout == 'home' %} home{% endif %}">
 {% endif %}
     <div class="container">
       <div class="row">
