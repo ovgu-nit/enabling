@@ -77,7 +77,7 @@ remark: See also page.layout == 'home' in head.html and header.html.
   <h2 class="mt-4 mb-3">Latest News</h2>
 
   <div class="row cards lg-4">
-    {% for item in site.posts limit:6 %}
+    {% for item in site.posts limit:site.posts_on_home %}
       <div class="col-md-4">
         {% include card.html %}
       </div>
