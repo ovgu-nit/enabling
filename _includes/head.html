@@ -48,11 +48,13 @@
   {% else %}
     {% assign background = page.background %}
   {% endif %}
+  {% assign background_video = page.background_video %}
   {% if background %}
     <meta property="og:image" content="{{ background | absolute_url }}">
   {% endif %}
 
   <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | absolute_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/theme/images/enabling_logo.svg' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - RSS feed" href="{{ '/feed.xml' | absolute_url }}" >
   <!-- CSS: Bootstrap CSS is included in main.css -->
   <link rel="stylesheet" href="{{ '/assets/theme/css/main.css' | relative_url }}">

@@ -5,14 +5,87 @@ remark: See also page.layout == 'home' in head.html and header.html.
 ---
 
 {{ content }}
-    
+
 {% if site.posts_on_home > 0 %}
+  <div id="content" class="home-stats row text-center my-4 py-4">
+    <div class="col-md-4 mb-3">
+      <div class="stat-item">
+        <div class="stat-number">2024&ndash;2027</div>
+        <div class="stat-label">Project Duration</div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="stat-item">
+        <div class="stat-number">ERDF</div>
+        <div class="stat-label">EU Funding</div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="stat-item">
+        <div class="stat-number">4</div>
+        <div class="stat-label">Research Focus Areas</div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="mt-5 mb-4">Breakthrough Innovations</h2>
+
+  <div class="row innovations mb-5">
+
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="innovation-card">
+        <div class="innovation-number">01</div>
+        <h5 class="innovation-title">AI-Based User Perception</h5>
+        <p>Development of AI methods for user perception in real mixed-skill scenarios with high occlusion, changing environments, and complex tasks under distributed attention between the human and the robot's own actions.</p>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="innovation-card">
+        <div class="innovation-number">02</div>
+        <h5 class="innovation-title">Social Signal Interpretation</h5>
+        <p>Methods for interpreting social signals and affective states that distinguish between task-directed user actions, interactions with other users, incidental movements, and interactions with the technical system.</p>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="innovation-card">
+        <div class="innovation-number">03</div>
+        <h5 class="innovation-title">Semantic Environment Analysis</h5>
+        <p>Development of a semantic environment analysis for recognising user actions in spatial context &mdash; a fundamental prerequisite for intentional, anticipatory systems that must understand both environment and action context.</p>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="innovation-card">
+        <div class="innovation-number">04</div>
+        <h5 class="innovation-title">Affective State Detection</h5>
+        <p>AI algorithms for determining the user's affective state via gestures, facial expressions, and vital parameters, enabling real-time non-verbal feedback on robot positioning and cooperative action alignment.</p>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="innovation-card">
+        <div class="innovation-number">05</div>
+        <h5 class="innovation-title">Generative Behaviour Models</h5>
+        <p>Development of generative models for capturing complex user behaviour in mixed-skill environments, unifying prediction methods across modalities to generate comprehensive situation models using AI.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <h2 class="mt-4 mb-3">Latest News</h2>
+
   <div class="row cards lg-4">
     {% for item in site.posts limit:site.posts_on_home %}
       <div class="col-md-4">
         {% include card.html %}
       </div>
     {% endfor %}
+  </div>
+
+  <div class="text-center mt-2 mb-5">
+    <a href="{{ site.archive_permalink | relative_url }}" class="btn btn-outline-dark">All News &rarr;</a>
   </div>
 {% endif %}
 

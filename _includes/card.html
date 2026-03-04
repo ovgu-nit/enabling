@@ -44,12 +44,8 @@
     </div>
   </div>
 
-  {% if item.collection == 'posts' and item.tags and site.archive_permalink %}
-    <div class="card-footer">
-      {% for tag in item.tags %}
-        <a class="badge{% if site.rounded_corners != false %} rounded-pill{% endif %}" href="{{ site.archive_permalink | relative_url }}?tag={{ tag | url_encode }}">{{ tag }}</a>
-      {% endfor %}
-    </div>
-  {% endif %}
+  <div class="card-footer d-flex justify-content-end">
+    <a href="{{ item.url | relative_url }}" class="card-arrow-btn" aria-label="Read more">Read More &rarr;</a>
+  </div>
 
 </div>

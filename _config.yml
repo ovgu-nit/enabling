@@ -17,16 +17,16 @@ social:
   #disqus: disqus_sitename               # Enable Disqus comments from disqus_sitename.disqus.com
 
 # THEME SETTINGS (ALL OPTIONAL)
-posts_on_home: 20                        # Show x number of latest posts on homepage, can be 0
+posts_on_home: 6                       # Show x number of latest posts on homepage, can be 0
 archive_permalink: /blog/               # Permalink of page using the archive.html layout, required when using post tags
 github_edit: true                       # Show an "edit this page" link in the footer, can also be name of branch (default: main)
 colors:
-  links: "#007bff"                      # Color for links: use a readable color that contrasts well with dark text
-  banner: "#007bff"                     # Background color for page banners: use color that contrasts well with white
-  footer: "#6c757d"                     # Background color for footer: use color that contrasts well with white
+  links: "#222222"                      # Color for links: use a readable color that contrasts well with dark text
+  banner: "#2b2b2b"                     # Background color for page banners: use color that contrasts well with white
+  footer: "#111111"                     # Background color for footer: use color that contrasts well with white
 font_serif: False                        # Font type for page content: serif (default) or slightly smaller sans-serif
 rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
-logo: /assets/theme/images/enabling_ico.png # Logo in navbar, will be displayed with 30px height
+logo: /assets/theme/images/enabling_logo.svg # Logo in navbar, will be displayed with 30px height
 
 # BUILD SETTINGS
 markdown: kramdown
