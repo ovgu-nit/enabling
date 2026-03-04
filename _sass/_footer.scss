@@ -2,7 +2,7 @@
 
 body > footer {
   background-color: $footer;
-  border-top: 5px solid lighten($footer, 50);
+  border-top: 4px solid $primary;
   color: lighten($footer, 50);
   font-size: 0.9rem;
   padding: $grid-gutter-width / 2 0;

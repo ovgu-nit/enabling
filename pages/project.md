@@ -6,8 +6,6 @@ permalink: /project/
 ---
 
 {: .alert .alert-warning}
- 
-![image](/enabling/assets/theme/images/project_img.jpg)
 
 ## Motivation
 

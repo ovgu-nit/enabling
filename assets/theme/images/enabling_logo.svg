@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 48" width="44" height="48">
+  <!-- Robotic arm segments forming the letter E -->
+  <g stroke="#222222" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Vertical spine -->
+    <line x1="6" y1="4" x2="6" y2="44" stroke-width="4"/>
+    <!-- Top arm -->
+    <line x1="6" y1="4" x2="38" y2="4" stroke-width="4"/>
+    <!-- Middle arm (shorter) -->
+    <line x1="6" y1="24" x2="28" y2="24" stroke-width="4"/>
+    <!-- Bottom arm -->
+    <line x1="6" y1="44" x2="38" y2="44" stroke-width="4"/>
+  </g>
+  <!-- Joints — outer ring (pivot housing) -->
+  <g fill="white" stroke="#222222" stroke-width="2">
+    <circle cx="6"  cy="4"  r="4.5"/>
+    <circle cx="38" cy="4"  r="4.5"/>
+    <circle cx="6"  cy="14" r="3.5"/>
+    <circle cx="6"  cy="24" r="4.5"/>
+    <circle cx="28" cy="24" r="4.5"/>
+    <circle cx="6"  cy="34" r="3.5"/>
+    <circle cx="6"  cy="44" r="4.5"/>
+    <circle cx="38" cy="44" r="4.5"/>
+  </g>
+  <!-- Joints — inner pin -->
+  <g fill="#222222">
+    <circle cx="6"  cy="4"  r="1.8"/>
+    <circle cx="38" cy="4"  r="1.8"/>
+    <circle cx="6"  cy="14" r="1.4"/>
+    <circle cx="6"  cy="24" r="1.8"/>
+    <circle cx="28" cy="24" r="1.8"/>
+    <circle cx="6"  cy="34" r="1.4"/>
+    <circle cx="6"  cy="44" r="1.8"/>
+    <circle cx="38" cy="44" r="1.8"/>
+  </g>
+</svg>

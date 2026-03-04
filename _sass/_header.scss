@@ -9,8 +9,9 @@
   border-radius: 0; // Should always be square, independent from $enable-rounded
   color: $white;
   margin-bottom: 2rem;
+  overflow: hidden; // Clip video to header bounds
   padding: 2rem 1rem;
-  position: relative; // To contain overlay
+  position: relative; // To contain overlay and video
   text-align: center;
 
   @include media-breakpoint-up(md) {
@@ -29,6 +30,23 @@
     background-color: $secondary;
   }
 
+  // Video background
+  .header-video {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+  }
+
+  // Ensure content sits above video and overlay
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+
   // Overlay
   &.bg-image:before {
     background-image: linear-gradient(rgba($dark, 0.3), rgba($dark, 0.7));
@@ -38,6 +56,7 @@
     position: absolute;
     top: 0;
     width: 100%;
+    z-index: 1;
   }
 
   a {
@@ -51,9 +70,10 @@
   }
   
   h1 {
-    $header-h1: 3rem;
+    $header-h1: 3.5rem;
     font-size: $header-h1;
     font-weight: 800;
+    text-shadow: 0 2px 12px rgba($dark, 0.6), 0 1px 4px rgba($dark, 0.8);
 
     // Reduce font-size on smaller screens, except on homepage
     @include media-breakpoint-down(md) {
@@ -65,8 +85,13 @@
     }
   }
 
+  h2 {
+    text-shadow: 0 1px 8px rgba($dark, 0.6);
+  }
+
   .lead {
-    font-size: ($lead-font-size * 1.1);
+    font-size: ($lead-font-size * 1.25);
+    text-shadow: 0 1px 6px rgba($dark, 0.7);
   }
 
   .meta {

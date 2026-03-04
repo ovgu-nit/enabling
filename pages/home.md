@@ -6,6 +6,7 @@ subtitle: ERDF research project
 
 description: "Resilient Human-Robot Collaboration in Mixed-Skill Environments"
 background: /assets/theme/images/header-img.jpg
+background_video: /assets/theme/videos/video.mp4
 permalink: /
 ---
 # ENABLING
