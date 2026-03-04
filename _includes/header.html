@@ -1,7 +1,14 @@
 {% comment %}background is defined in head.html{% endcomment %}
 {% if background_video %}
   <header class="header bg-image{% if page.layout == 'home' %} home{% endif %}">
-    <video class="header-video" autoplay muted loop playsinline>
+    <style>
+      @media (prefers-reduced-motion: reduce) {
+        .header-video {
+          display: none;
+        }
+      }
+    </style>
+    <video class="header-video" autoplay muted loop playsinline preload="metadata"{% if background %} poster="{{ background | relative_url }}"{% endif %}>
       <source src="{{ background_video | relative_url }}" type="video/mp4">
     </video>
 {% elsif background %}
