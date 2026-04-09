@@ -2,8 +2,8 @@
 title: "Deep Learning-Based Gaze Estimation: A Review"
 description: |
   A comprehensive review of gaze estimation methodologies, tracing the evolution from conventional model- and feature-based approaches to modern deep learning techniques, including CNNs, transformers, temporal models, and lightweight networks, alongside an analysis of open challenges and future directions.
-background: /assets/theme/images/mobgazenet.png
-image: /assets/theme/images/mobgazenet.png
+background: /assets/theme/images/robotics-15-00069-g003.png
+image: /assets/theme/images/robotics-15-00069-g011.png
 author: []
 categories: [Publication, Journal Paper, Robotics, Gaze Estimation, Deep Learning]
 ---
@@ -34,7 +34,7 @@ Deep learning transformed the field from 2015 onward by overcoming many of these
 @article{abdelrahman2026deep,
   author    = {Ahmed A. Abdelrahman and Basheer Al-Tawil and Ayoub Al-Hamadi},
   title     = {Deep Learning-Based Gaze Estimation: A Review},
-  journal   = {Robotics},
+  journal   = {MDPI Robotics},
   volume    = {15},
   number    = {4},
   pages     = {69},
