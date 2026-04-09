@@ -8,25 +8,72 @@ remark: See also page.layout == 'home' in head.html and header.html.
 
 {% if site.posts_on_home > 0 %}
   <div id="content" class="home-stats row text-center my-4 py-4">
-    <div class="col-md-4 mb-3">
+    <div class="col-6 col-md mb-3">
       <div class="stat-item">
         <div class="stat-number">2024&ndash;2027</div>
         <div class="stat-label">Project Duration</div>
       </div>
     </div>
-    <div class="col-md-4 mb-3">
+    <div class="col-6 col-md mb-3">
       <div class="stat-item">
         <div class="stat-number">ERDF</div>
         <div class="stat-label">EU Funding</div>
       </div>
     </div>
-    <div class="col-md-4 mb-3">
+    <div class="col-6 col-md mb-3">
       <div class="stat-item">
-        <div class="stat-number">4</div>
+        <div class="stat-number count-up" data-target="4">4</div>
         <div class="stat-label">Research Focus Areas</div>
       </div>
     </div>
+    <div class="col-6 col-md mb-3">
+      <div class="stat-item">
+        <div class="stat-number count-up" data-target="{{ site.data.stats.publications }}">{{ site.data.stats.publications }}</div>
+        <div class="stat-label">Publications</div>
+      </div>
+    </div>
+    <div class="col-6 col-md mb-3">
+      <div class="stat-item">
+        <div class="stat-number count-up" data-target="{{ site.data.stats.citations }}">{{ site.data.stats.citations }}</div>
+        <div class="stat-label">Citations</div>
+      </div>
+    </div>
   </div>
+
+  <script>
+  (function () {
+    var els = document.querySelectorAll('.count-up');
+    if (!els.length) return;
+
+    function animateCountUp(el) {
+      var target = parseInt(el.getAttribute('data-target'), 10);
+      var duration = 1500;
+      var start = null;
+      function step(ts) {
+        if (!start) start = ts;
+        var progress = Math.min((ts - start) / duration, 1);
+        var eased = 1 - Math.pow(1 - progress, 4);
+        el.textContent = Math.round(eased * target);
+        if (progress < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+
+    if ('IntersectionObserver' in window) {
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            animateCountUp(entry.target);
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.5 });
+      els.forEach(function (el) { observer.observe(el); });
+    } else {
+      els.forEach(animateCountUp);
+    }
+  })();
+  </script>
 
   <h2 class="mt-5 mb-4">Breakthrough Innovations</h2>
 
