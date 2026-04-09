@@ -17,7 +17,7 @@ This work presents a robust and accurate SLAM framework that leverages RGB-D cam
 ---
 
 ## Fulltext Access
-[https://doi.org/10.3390/s25092930](https://doi.org/10.3390/s25092930)
+[https://doi.org/10.3390/s25082408](https://doi.org/10.3390/s25082408)
 
 ## Citing
 

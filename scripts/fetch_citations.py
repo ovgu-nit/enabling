@@ -18,15 +18,18 @@ import yaml
 
 # ── Edit this list to add/remove publications ────────────────────────────────
 DOIS = [
-    "10.1007/s00138-025-01690-z",   # MobGazeNet
-    "10.1007/s10462-025-11431-3",   # Synthetic dataset generation review
-    "10.1007/s40747-025-01902-z",   # Eye contact engagement HRI
-    "10.1109/ACCESS.2025.3617952",  # Automated 3D dataset generation
-    "10.1109/CogSIMA64436.2025.11079517",
+    "10.1007/s10489-024-05778-3",      # AppInt 2024 journal
+    "10.3390/s25082408",               # Mobile robot navigation (Sensors 25/8/2408)
+    "10.1007/s40747-025-01902-z",      # Eye contact engagement HRI
+    "10.1109/CogSIMA64436.2025.11079517",  # ImHere CogSIMA
+    "10.3390/s25092930",               # HAR multi-head attention (Sensors 25/9/2930)
+    "10.1007/s00138-025-01690-z",      # MobGazeNet
     "10.1109/SMC58881.2025.11343553",  # Digital twin TIAGo
-    "10.3390/robotics15040069",     # Gaze estimation review
-    "10.3390/s25092930",
-    "10.1007/s10489-024-05778-3"
+    "10.1109/ACCESS.2025.3617952",     # Automated 3D dataset generation
+    "10.1007/s10462-025-11431-3",      # Synthetic dataset generation review
+    "10.3390/robotics15040069",        # Deep learning gaze estimation review
+    "10.1007/978-3-032-00986-9_6",
+    "10.1007/978-3-032-00986-9_3"
 ]
 # ─────────────────────────────────────────────────────────────────────────────
 
