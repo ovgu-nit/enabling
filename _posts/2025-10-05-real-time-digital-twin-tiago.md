@@ -19,7 +19,7 @@ A central design decision is the use of the original TIAGo operating software (T
 
 The framework integrates the institute's full suite of ML ROS packages — including object detection, pose estimation, face detection, face recognition, head pose estimation, gaze estimation, and eye contact detection — allowing the digital twin to behave functionally like the real robot. A procedurally generated indoor environment, created with the Infinigen Indoors framework, serves as a proof-of-concept training scenario for RL and SLAM algorithm testing.
 
-![](/enabling/assets/theme/images/digital_twin.png)
+<img src="/enabling/assets/theme/images/digital_twin.png" width="60%">
 
 
 ## Key Contributions
