@@ -4,8 +4,9 @@ description: |
   An end-to-end pipeline that automates all aspects of 3D dataset generation by leveraging Radiance Fields for high-quality 3D modeling and synthetic dataset generation, enabling training of pose estimation networks for arbitrary objects.
 background: /assets/theme/images/paul_access.png
 image: /assets/theme/images/paul_access.png
-author: []
+author: "Paul Schulz, Thorsten Hempel, Ayoub Al-Hamadi"
 categories: [Publication, Journal Paper, IEEE Access, 3D Dataset Generation, Pose Estimation]
+journal: "**IEEE Access 2025** [[paper]](https://doi.org/10.1109/ACCESS.2025.3617952)"
 ---
 
 ## Automated 3D Dataset Generation for Arbitrary Objects

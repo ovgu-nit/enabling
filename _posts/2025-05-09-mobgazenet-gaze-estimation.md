@@ -4,8 +4,9 @@ description: |
   An efficient and lightweight network for gaze estimation that leverages progressive attention mechanisms to emphasize crucial eye features while maintaining computational efficiency for mobile and embedded systems.
 background: /assets/theme/images/mobgazenet.png
 image: /assets/theme/images/mobgazenet.png
-author: []
+author: "Ahmed A. Abdelrahman, Thorsten Hempel, Aly Khalifa, Dominykas Strazdas, Ayoub Al-Hamadi"
 categories: [Publication, Journal Paper, Machine Vision and Applications, Gaze Estimation]
+journal: "**Machine Vision and Applications 2025** [[paper]](https://doi.org/10.1007/s00138-025-01690-z)"
 ---
 
 ## MobGazeNet: Robust Gaze Estimation Mobile Network Based on Progressive Attention Mechanisms
