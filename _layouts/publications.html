@@ -79,7 +79,7 @@ img {
           <p style="line-height:110%;margin-bottom:0.2em; color: grey;">
                 <font color="grey">{{ item.author }}</font>
             </p>
-              {{ item.conference | markdownify }}
+              {{ item.conference | default: item.journal | markdownify }}
           </small>
         {% endif %}
 
