@@ -19,7 +19,7 @@ Conventional gaze estimation methods are organized into three categories: **mode
 
 Deep learning transformed the field from 2015 onward by overcoming many of these limitations through large-scale data-driven training. The review covers major deep learning paradigms applied to gaze estimation, including CNN-based architectures, temporal models for capturing dynamic gaze behavior, generative frameworks, transformer-based approaches, and lightweight networks suitable for mobile and embedded deployment. Challenges specific to cross-dataset generalization are also addressed, covering domain adaptation and domain generalization strategies that enable models to transfer across different subjects and environments without requiring target-domain labels.
 
-![](enabling/assets/theme/images/robotics-15-00069-g011.png)
+![](/enabling/assets/theme/images/robotics-15-00069-g011.png)
 
 ## Key Contributions
 
