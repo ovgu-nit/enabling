@@ -3,6 +3,7 @@ title: "Intent Recognition in Speech-to-Text Processing in the Context of Natura
 description: |
   This study investigates efficient speech-to-intent recognition for human–robot interaction in elderly-care environments in German, targeting deployment on resource-constrained platforms such as the Jetson AGX Orin. Two pipelines are compared: a modular ASR+LLM system and an end-to-end Large Audio-Language Model (LALM) approach.
 background: /assets/theme/images/lrec2026.png
+image: /assets/theme/images/lrec2026.png
 author: "Behnam Ensan, Magnus Jung, Matthias Busch, Andreas Wendemuth"
 categories: [Publication, Conference Paper, Speech Recognition, Human-Robot Interaction]
 conference: "**LREC 2026**"

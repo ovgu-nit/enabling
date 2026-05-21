@@ -2,7 +2,8 @@
 title: "Think Like a Team: Graph-Based Representation of Shared Mental Models in Human-Agent Collaboration"
 description: |
   We introduce a conceptual temporal Shared Mental Model (SMM) that maps changing human-human and human-agent team dynamics using temporal graph neural networks (TGNNs), allowing Human-Agent Teaming Systems (HATs) to achieve shared teaming goals.
-background: /assets/theme/images/essv2026.jpg
+background: /assets/theme/images/essv2026.png   
+image: /assets/theme/images/essv2026.png
 author: "Moinam Chatterjee, Behnam Ensan, Andreas Wendemuth, Ayoub Al-Hamadi"
 categories: [Publication, Conference Paper, Human-Agent Teaming, Graph Neural Networks]
 conference: "**ESSV 2026**"
