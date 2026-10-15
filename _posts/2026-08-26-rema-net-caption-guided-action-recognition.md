@@ -35,6 +35,7 @@ Across the three benchmarks REMA-Net reaches **96.8% on UCF101, 73.0% on HMDB51,
 
 ## Citation (BibTeX)
 
+{% raw %}
 ```bibtex
 @misc{altawil2026remanet,
   author       = {Basheer Al-Tawil and Magnus Jung and Ayoub Al-Hamadi},
@@ -45,3 +46,4 @@ Across the three benchmarks REMA-Net reaches **96.8% on UCF101, 73.0% on HMDB51,
   url          = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7357566}
 }
 ```
+{% endraw %}

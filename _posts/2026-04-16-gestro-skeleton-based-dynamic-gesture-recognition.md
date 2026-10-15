@@ -37,6 +37,7 @@ Finally, both GESTRO-LSTM and the Transformer were deployed on the humanoid robo
 
 ## Citation (BibTeX)
 
+{% raw %}
 ```bibtex
 @article{hempel2026gestro,
   author    = {Thorsten Hempel and Magnus Jung and Arman Ahmed Khan and Ayoub Al-Hamadi},
@@ -51,3 +52,4 @@ Finally, both GESTRO-LSTM and the Transformer were deployed on the humanoid robo
   url       = {https://doi.org/10.1007/s10846-026-02395-9}
 }
 ```
+{% endraw %}

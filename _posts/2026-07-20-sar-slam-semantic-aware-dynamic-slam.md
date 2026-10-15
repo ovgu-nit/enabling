@@ -37,6 +37,7 @@ On the **TUM RGB-D benchmark**, the gap to the baseline is substantial. SAR-SLAM
 
 ## Citation (BibTeX)
 
+{% raw %}
 ```bibtex
 @article{altawil2026sarslam,
   author    = {Basheer Al-Tawil and Magnus Jung and Thorsten Hempel and Ayoub Al-Hamadi},
@@ -51,3 +52,4 @@ On the **TUM RGB-D benchmark**, the gap to the baseline is substantial. SAR-SLAM
   url       = {https://doi.org/10.3390/robotics15070136}
 }
 ```
+{% endraw %}
