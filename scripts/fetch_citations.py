@@ -5,7 +5,8 @@ and write the result to _data/stats.yml.
 
 Every post in _posts/ with "Publication" in its categories counts as a
 publication. Its DOI is read from the `doi` front matter field; posts without
-a DOI are still counted as publications, but contribute no citations.
+a DOI (e.g. proceedings with only an `isbn`) are still counted as
+publications, but contribute no citations.
 
 OpenAlex is free and requires no API key.
 Polite-pool access (faster) is used by supplying a mailto in the User-Agent.
@@ -63,7 +64,8 @@ def main() -> None:
     for pub in pubs:
         doi = pub.get("doi")
         if not doi:
-            missing.append(pub["_file"])
+            if not pub.get("isbn"):
+                missing.append(pub["_file"])
             continue
         count = fetch_cited_by(doi)
         print(f"  {count:>5}  {doi}")
@@ -71,7 +73,7 @@ def main() -> None:
         time.sleep(0.2)  # stay well within rate limits
 
     if missing:
-        print("\nPublications without DOI (counted, but no citations):")
+        print("\nPublications without DOI or ISBN (counted, but no citations):")
         for name in missing:
             print(f"  - {name}")
 

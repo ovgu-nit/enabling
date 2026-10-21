@@ -6,6 +6,7 @@ background: /assets/theme/images/essv2026.png
 image: /assets/theme/images/essv2026.png
 author: "Moinam Chatterjee, Behnam Ensan, Andreas Wendemuth, Ayoub Al-Hamadi"
 categories: [Publication, Conference Paper, Human-Agent Teaming, Graph Neural Networks]
+isbn: "978-3-95908-834-3"
 conference: "**ESSV 2026**"
 tags: [Conference, ESSV, Publication, HAT, SMM, Graph Neural Networks]
 ---
@@ -49,6 +50,7 @@ Graph-level outputs at each timestamp can be used to compute a team cohesion ind
   author    = {Chatterjee, Moinam and Ensan, Behnam and Wendemuth, Andreas and Al-Hamadi, Ayoub},
   booktitle = {Elektronische Sprachsignalverarbeitung (ESSV 2026)},
   pages     = {151--158},
+  isbn      = {978-3-95908-834-3},
   year      = {2026},
   month     = mar,
   address   = {Eichst{\"a}tt, Germany}
