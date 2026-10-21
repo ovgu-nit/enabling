@@ -6,6 +6,7 @@ background: /assets/theme/images/rosa_touch_speech.png
 image: /assets/theme/images/rosa_touch_speech.png
 author: "Dominykas Strazdas, Matthias Busch, Rijin Shaji, Ingo Siegert, Ayoub Al-Hamadi"
 categories: [Publication, Journal Paper, Human-Robot Interaction, Telerobotics, Multimodal Interaction]
+doi: "10.3389/frobt.2025.1561188"
 journal: "**Frontiers in Robotics and AI 2025** [[paper]](https://doi.org/10.3389/frobt.2025.1561188)"
 tags: [Frontiers 2025, Journal Paper, Human-Robot Interaction, Telerobotics]
 ---

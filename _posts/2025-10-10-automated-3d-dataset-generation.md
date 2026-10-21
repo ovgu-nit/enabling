@@ -6,6 +6,7 @@ background: /assets/theme/images/paul_access.png
 image: /assets/theme/images/paul_access.png
 author: "Paul Schulz, Thorsten Hempel, Ayoub Al-Hamadi"
 categories: [Publication, Journal Paper, IEEE Access, 3D Dataset Generation, Pose Estimation]
+doi: "10.1109/ACCESS.2025.3617952"
 journal: "**IEEE Access 2025** [[paper]](https://doi.org/10.1109/ACCESS.2025.3617952)"
 ---
 

@@ -6,6 +6,7 @@ background: /assets/theme/images/gestro.png
 image: /assets/theme/images/gestro.png
 author: "Thorsten Hempel, Magnus Jung, Arman Ahmed Khan, Ayoub Al-Hamadi"
 categories: [Publication, Journal Paper, Gesture Recognition, Human-Robot Interaction, Robot Teleoperation]
+doi: "10.1007/s10846-026-02395-9"
 journal: "**Journal of Intelligent & Robotic Systems 2026** [[paper]](https://doi.org/10.1007/s10846-026-02395-9) [[code]](https://github.com/thohemp/gestro)"
 tags: [JINT 2026, Journal Paper, Gesture Recognition, Teleoperation]
 ---

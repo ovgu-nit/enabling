@@ -5,6 +5,7 @@ background: /assets/theme/images/header-img.jpg
 image: /assets/theme/images/nav.png
 author: "Basheer Al-Tawil, Adem Candemir, Magnus Jung, Ayoub Al-Hamadi"
 categories: [Publication, Journal, SLAM, Robotics]
+doi: "10.3390/s25082408"
 tag: [SLAM, Multi-Sensor Fusion, Robot Navigation, Gmapping, RGB-D, LiDAR]
 journal: "**MDPI Sensors 2025** [[paper]](https://www.mdpi.com/1424-8220/25/8/2408)"
 ---

@@ -6,6 +6,7 @@ background: /assets/theme/images/sar_slam.png
 image: /assets/theme/images/sar_slam.png
 author: "Basheer Al-Tawil, Magnus Jung, Thorsten Hempel, Ayoub Al-Hamadi"
 categories: [Publication, Journal Paper, SLAM, Dynamic Environments, Robotics]
+doi: "10.3390/robotics15070136"
 journal: "**MDPI Robotics 2026** [[paper]](https://doi.org/10.3390/robotics15070136)"
 tags: [MDPI Robotics 2026, Journal, SLAM, Semantic Segmentation]
 ---

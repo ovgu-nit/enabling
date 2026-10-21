@@ -6,6 +6,7 @@ background: /assets/theme/images/mobgazenet.png
 image: /assets/theme/images/mobgazenet.png
 author: "Ahmed A. Abdelrahman, Thorsten Hempel, Aly Khalifa, Dominykas Strazdas, Ayoub Al-Hamadi"
 categories: [Publication, Journal Paper, Machine Vision and Applications, Gaze Estimation]
+doi: "10.1007/s00138-025-01690-z"
 journal: "**Machine Vision and Applications 2025** [[paper]](https://doi.org/10.1007/s00138-025-01690-z)"
 ---
 

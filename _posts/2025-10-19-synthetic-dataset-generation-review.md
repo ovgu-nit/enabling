@@ -6,6 +6,7 @@ background: /assets/theme/images/synthetic_data.png
 image: /assets/theme/images/synthetic_data.png
 author: "Paul Schulz, Thorsten Hempel, Magnus Jung, Ayoub Al-Hamadi"
 categories: [Publication, Journal Paper, Artificial Intelligence Review, 3D Detection, Synthetic Data]
+doi: "10.1007/s10462-025-11431-3"
 journal: "**Artificial Intelligence Review 2026** [[paper]](https://doi.org/10.1007/s10462-025-11431-3)"
 ---
 

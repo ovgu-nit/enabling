@@ -5,6 +5,7 @@ background: /assets/theme/images/header-img.jpg
 image: /assets/theme/images/applint-2024.png
 author: "Ahmed A. Abdelrahman, Thorsten Hempel, Aly Khalifa, Ayoub Al-Hamadi"
 categories: [Publication, Journal, Gaze estimation]
+doi: "10.1007/s10489-024-05778-3"
 tag: [Journal, Publication]
 conference: "**Springer Applied Intelligence 2024** [[paper]](https://link.springer.com/article/10.1007/s10489-024-05778-3)"
 ---

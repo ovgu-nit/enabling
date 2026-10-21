@@ -6,6 +6,7 @@ background: /assets/theme/images/warehouse_forklift.png
 image: /assets/theme/images/warehouse_forklift.png
 author: "Magnus Jung, Thorsten Hempel, Paul Schulz, Ayoub Al-Hamadi"
 categories: [Publication, Journal Paper, Autonomous Forklifts, 6D Pose Estimation, Human-Robot Interaction]
+doi: "10.3390/robotics15100191"
 journal: "**MDPI Robotics 2026** [[paper]](https://doi.org/10.3390/robotics15100191)"
 tags: [MDPI Robotics 2026, Journal Paper, Intralogistics, Pallet Detection, Gesture Recognition]
 ---

@@ -6,6 +6,7 @@ background: /assets/theme/images/robotics-15-00069-g003.png
 image: /assets/theme/images/robotics-15-00069-g011.png
 author: "Ahmed A. Abdelrahman, Basheer Al-Tawil, Ayoub Al-Hamadi"
 categories: [Publication, Journal Paper, Robotics, Gaze Estimation, Deep Learning]
+doi: "10.3390/robotics15040069"
 journal: "**MDPI Robotics 2026** [[paper]](https://doi.org/10.3390/robotics15040069)"
 ---
 

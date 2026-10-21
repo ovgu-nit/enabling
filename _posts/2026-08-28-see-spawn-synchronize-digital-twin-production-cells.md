@@ -6,6 +6,7 @@ background: /assets/theme/images/see_spawn_synchronize.png
 image: /assets/theme/images/see_spawn_synchronize.png
 author: "Malte Herrmann, Dominykas Strazdas, Ayoub Al-Hamadi"
 categories: [Publication, Journal Paper, Digital Twin, Object Detection, Industry 5.0]
+doi: "10.3390/machines14090972"
 journal: "**MDPI Machines 2026** [[paper]](https://doi.org/10.3390/machines14090972)"
 tags: [MDPI Machines 2026, Journal Paper, Digital Twin, Human-Robot Collaboration]
 ---

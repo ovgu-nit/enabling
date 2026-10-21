@@ -6,6 +6,7 @@ background: /assets/theme/images/lrec2026.png
 image: /assets/theme/images/lrec2026.png
 author: "Behnam Ensan, Magnus Jung, Matthias Busch, Andreas Wendemuth"
 categories: [Publication, Conference Paper, Speech Recognition, Human-Robot Interaction]
+doi: "10.63317/2ekx6bohnzso"
 conference: "**LREC 2026**"
 tags: [Conference, LREC, Publication, NLP, Speech, HRI]
 ---

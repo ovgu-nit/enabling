@@ -5,6 +5,7 @@ background: /assets/theme/images/header-img.jpg
 image: /assets/theme/images/har_model.png
 author: "Basheer Al-Tawil, Magnus Jung, Thorsten Hempel, Ayoub Al-Hamadi"
 categories: [Publication, Journal, Human Action Recognition]
+doi: "10.3390/s25092930"
 github: https://github.com/basheeraltawil/HAR-ResNet-BiLSTM-Attention
 tag: [Journal, HAR, Deep Learning]
 conference: "**MDPI Sensors 2025** [[paper]](https://doi.org/10.3390/s25092930)"

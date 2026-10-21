@@ -6,6 +6,7 @@ background: /assets/theme/images/gaze_matters.png
 image: /assets/theme/images/gaze_matters.png
 author: "Thorsten Hempel, Magnus Jung, Dominykas Strazdas, Ayoub Al-Hamadi"
 categories: [Publication, Conference Paper, Eye Contact Detection, Human-Robot Interaction, User Study]
+doi: "10.1109/SMC58881.2025.11343353"
 conference: "**IEEE SMC 2025** [[paper]](https://doi.org/10.1109/SMC58881.2025.11343353)"
 tags: [IEEE SMC 2025, Conference, Eye Contact, HRI]
 ---

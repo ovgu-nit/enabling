@@ -5,6 +5,7 @@ background: /assets/theme/images/header-img.jpg
 image: /assets/theme/images/Teaser.png
 author: "Paul Schulz, Thorsten Hempel, Ayoub Al-Hamadi"
 categories: [Publication, Conference, Engagement]
+doi: "10.1007/978-3-032-00986-9_3"
 github: https://github.com/PaulSK98/Nerf2Dataset
 conference: "**ROBOVIS 2025** [[paper]](https://arxiv.org/abs/2503.15997) [[code]]( https://github.com/PaulSK98/Nerf2Dataset)"
 tags: [ROBOVIS 2025, Conference]

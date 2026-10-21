@@ -5,6 +5,7 @@ background: /assets/theme/images/header-img.jpg
 image: /assets/theme/images/EyeContactBasedEngagementForHRI2025.png
 author: "Magnus Jung, Ahmed A. Abdelrahmanand, Thorsten Hempel, Basheer Al-Tawil, Qiaoyue Yang, Sven Wachsmuth, Ayoub Al-Hamadi"
 categories: [Publication, Journal, Engagement]
+doi: "10.1007/s40747-025-01902-z"
 conference: "**CIS 2025, *accepted***"
 tags: [Journal, Springer, Publication]
 ---

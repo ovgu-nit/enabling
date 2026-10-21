@@ -5,6 +5,7 @@ background: /assets/theme/images/dg_header.png
 image: /assets/theme/images/digital_twin.png
 author: "Malte Herrmann, Thorsten Hempel, Ayoub Al-Hamadi"
 categories: [Publication, Conference, Digital Twin, Service Robots, Reinforcement Learning]
+doi: "10.1109/SMC58881.2025.11343553"
 conference: "**IEEE SMC 2025** [[paper]](https://doi.org/10.1109/SMC58881.2025.11343553)"
 tags: [IEEE SMC 2025, Conference, Digital Twin]
 ---

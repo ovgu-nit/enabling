@@ -6,6 +6,7 @@ background: /assets/theme/images/rema_net.png
 image: /assets/theme/images/rema_net.png
 author: "Basheer Al-Tawil, Magnus Jung, Ayoub Al-Hamadi"
 categories: [Publication, Preprint, Action Recognition, Human-Robot Interaction]
+doi: "10.2139/ssrn.7357566"
 journal: "**SSRN Preprint 2026** [[preprint]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7357566)"
 tags: [Preprint, SSRN, Action Recognition, Knowledge Distillation]
 ---

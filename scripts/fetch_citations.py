@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
-Fetch citation counts for the publications listed below via the OpenAlex API
+Fetch citation counts for all publication posts via the OpenAlex API
 and write the result to _data/stats.yml.
+
+Every post in _posts/ with "Publication" in its categories counts as a
+publication. Its DOI is read from the `doi` front matter field; posts without
+a DOI are still counted as publications, but contribute no citations.
 
 OpenAlex is free and requires no API key.
 Polite-pool access (faster) is used by supplying a mailto in the User-Agent.
-
-To add or remove a publication, edit the DOIS list.
 """
 
 import time
@@ -16,24 +18,7 @@ from pathlib import Path
 import requests
 import yaml
 
-# ── Edit this list to add/remove publications ────────────────────────────────
-DOIS = [
-    "10.1007/s10489-024-05778-3",      # AppInt 2024 journal
-    "10.3390/s25082408",               # Mobile robot navigation (Sensors 25/8/2408)
-    "10.1007/s40747-025-01902-z",      # Eye contact engagement HRI
-    "10.1109/CogSIMA64436.2025.11079517",  # ImHere CogSIMA
-    "10.3390/s25092930",               # HAR multi-head attention (Sensors 25/9/2930)
-    "10.1007/s00138-025-01690-z",      # MobGazeNet
-    "10.1109/SMC58881.2025.11343553",  # Digital twin TIAGo
-    "10.1109/ACCESS.2025.3617952",     # Automated 3D dataset generation
-    "10.1007/s10462-025-11431-3",      # Synthetic dataset generation review
-    "10.3390/robotics15040069",        # Deep learning gaze estimation review
-    "10.1007/978-3-032-00986-9_6",
-    "10.1007/978-3-032-00986-9_3", 
-    "10.63317/2ekx6bohnzso"
-]
-# ─────────────────────────────────────────────────────────────────────────────
-
+POSTS_DIR = Path(__file__).parent.parent / "_posts"
 DATA_FILE = Path(__file__).parent.parent / "_data" / "stats.yml"
 
 OPENALEX_BASE = "https://api.openalex.org/works"
@@ -55,25 +40,50 @@ def fetch_cited_by(doi: str) -> int:
     return 0
 
 
+def load_publications() -> list[dict]:
+    """Return the front matter of every publication post."""
+    pubs = []
+    for post in sorted(POSTS_DIR.glob("*.md")):
+        text = post.read_text(encoding="utf-8")
+        if not text.startswith("---"):
+            continue
+        front = yaml.safe_load(text.split("---", 2)[1]) or {}
+        if "Publication" in (front.get("categories") or []):
+            front["_file"] = post.name
+            pubs.append(front)
+    return pubs
+
+
 def main() -> None:
-    print(f"Fetching citations for {len(DOIS)} DOIs:")
+    pubs = load_publications()
+    print(f"Fetching citations for {len(pubs)} publications:")
 
     total = 0
-    for doi in DOIS:
+    missing = []
+    for pub in pubs:
+        doi = pub.get("doi")
+        if not doi:
+            missing.append(pub["_file"])
+            continue
         count = fetch_cited_by(doi)
         print(f"  {count:>5}  {doi}")
         total += count
         time.sleep(0.2)  # stay well within rate limits
 
+    if missing:
+        print("\nPublications without DOI (counted, but no citations):")
+        for name in missing:
+            print(f"  - {name}")
+
     stats = {
         "citations": total,
-        "publications": len(DOIS),
+        "publications": len(pubs),
         "last_updated": date.today().isoformat(),
     }
 
     DATA_FILE.write_text(yaml.dump(stats, default_flow_style=False), encoding="utf-8")
     print(f"\nTotal citations: {total}")
-    print(f"Publications:    {len(DOIS)}")
+    print(f"Publications:    {len(pubs)}")
     print(f"Written to {DATA_FILE}")
 
 

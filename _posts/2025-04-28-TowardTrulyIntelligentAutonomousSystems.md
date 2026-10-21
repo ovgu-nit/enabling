@@ -5,6 +5,7 @@ background: /assets/theme/images/header-img.jpg
 image: /assets/theme/images/TowardTrulyIntelligentAutonomousSystems.png
 author: "Magnus Jung, Thorsten Hempel, Basheer Al-Tawil, Qiaoyue Yang and Sven Wachsmuth, Ayoub Al-Hamadi"
 categories: [Publication, Conference, LLM Integration]
+doi: "10.1007/978-3-032-00986-9_6"
 conference: "**ROBOVIS 2025, *accepted***"
 tags: [ROBOVIS 2025, Conference]
 ---
