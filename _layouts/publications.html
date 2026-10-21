@@ -54,6 +54,8 @@ img {
 
 {{ content }}
 
+{% include publication-stats.html %}
+
 {% assign current_year = "" %}
 {% for item in site.posts %}
   {% if item.categories contains 'Publication' %}

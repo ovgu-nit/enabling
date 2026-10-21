@@ -1,0 +1,18 @@
+{% comment %}Publication and citation counts from _data/stats.yml (updated by scripts/fetch_citations.py).{% endcomment %}
+{% if site.data.stats %}
+<div class="home-stats row text-center justify-content-center my-4 py-4">
+  <div class="col-6 col-md-3 mb-3">
+    <div class="stat-item">
+      <div class="stat-number count-up" data-target="{{ site.data.stats.publications }}">{{ site.data.stats.publications }}</div>
+      <div class="stat-label">Publications</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-3 mb-3">
+    <div class="stat-item">
+      <div class="stat-number count-up" data-target="{{ site.data.stats.citations }}">{{ site.data.stats.citations }}</div>
+      <div class="stat-label">Citations</div>
+    </div>
+  </div>
+</div>
+{% include count-up.html %}
+{% endif %}
