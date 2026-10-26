@@ -73,3 +73,12 @@
   #googlescholar: leE018kAAAAJ
   email:  behnam.ensan@ovgu.de
   github: bhname
+
+- name: M.Sc. Basheer Al-Tawil
+  role: PhD Scholarship Holder
+  image: assets/theme/images/team/al-tawil.jpeg # Can be external link
+  description: >
+    Basheer Al-Tawil is a PhD scholarship holder in the NIT group. Research focus: SLAM (Simultaneous Localization and Mapping) and human action recognition.
+  orcid: 0000-0002-5716-7587
+  email: basheer.al-tawil@ovgu.de
+  github: basheeraltawil
